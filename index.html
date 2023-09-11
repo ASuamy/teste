@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap"
+        rel="stylesheet">
+
+    <title>Aline's Pub</title>
+
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset class="grupo">
+            <legend>Informações do Usuário</legend>
+            <div class="campo">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div class="campo">
+                <label for="sexo">Sexo:</label>
+                <select name="select">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="sem-defnicao">Sem definição</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+            </div>
+            <div class="campo">
+                <label for="data-nascimento">Data de Nascimento:</label>
+                <input type="date" id="data-nascimento" name="data-nascimento" required>
+            </div>
+            <div class="grupo">
+                <label for="senha">Digite sua senha:</label>
+                <input type="password" id="senha" name="senha" required />
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <legend>Endereço</legend>
+            <div class="campo">
+                <label for="endereco">Endereço:</label>
+                <input type="adress" id="endereco" name="endereco"/>
+            </div>
+            <div class="campo">
+                <label for="complemento">Complemento:</label>
+                <input type="text" id="complemento" name="complemento"/>
+            </div>
+            <div class="campo">
+                <label for="nome-rua">Nome da Rua:</label>
+                <input type="text" id="nome-rua" name="nome-rua"/>
+            </div>
+            <div class="campo">
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado"/>
+            </div>
+            <div class="campo">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade"/>
+            </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+            <legend>Pagamento</legend>
+            <div class="campo">
+                <label for="pagamento">Pagamento:</label>
+                <input type="pagamento" id="pagamento" name="pagamento"/>
+            </div>
+            <div class="campo">
+                <label for="validade">Validade:</label>
+                <input type="date" id="validade" name="validade"/>
+            </div>
+            <div class="campo">
+                <label for="codigo-seguranca">Código de Segurança:</label>
+                <input type="number" id="codigo-seguranca" name="codigo-seguranca"/>
+            </div>
+            <div class="campo">
+                <label for="nome-titular">Nome do Titular:</label>
+                <input type="text" id="nome-titular" name="nome-titular"/>
+            </div>
+
+        </fieldset>
+
+
+    </form>
+
+
+</body>
+
+</html>
