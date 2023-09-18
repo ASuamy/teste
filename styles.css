@@ -1,0 +1,92 @@
+/* geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #085588;
+}
+
+#cadastro-container {
+    background-color: #FFF;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input, select {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus, select:focus {
+    border-bottom: 2px solid #daa520;
+}
+
+/* customizando o botão */
+
+#cadastro-container .page-container a {
+    flex-direction: row;
+    text-decoration: none;
+    
+  }
+  
+
+  .page a:hover {
+    background-color: #d7b661;
+    color: black;
+  }
+  
+ .page  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+ .page .next {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+ 

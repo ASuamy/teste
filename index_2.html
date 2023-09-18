@@ -10,16 +10,15 @@
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap"
         rel="stylesheet">
     <link rel="icon" href="image/icon_folha.png" type="image/png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Zero Garden</title>
 
 </head>
 
 <body>
 
+    <div id="cadastro-container">
     <form>
-
-        <fieldset class="grupo">
-            <legend>Endereço</legend>
             <div class="campo">
                 <label for="endereco">Endereço:</label>
                 <input type="adress" id="endereco" name="endereco" />
@@ -40,15 +39,19 @@
                 <label for="cidade">Cidade:</label>
                 <input type="text" id="cidade" name="cidade" />
             </div>
-            <div class="icon-back">
-                <a href="index.html">Back</a>
+            <div class="page-container">
+                <div class="page">
+                    <a class="next" href="index_3.html">Next</a>
+                </div>
             </div>
-            <div class="icon-next">
-                <a href="index_3.html">Next</a>
+            <div class="page-container">
+                <div class="page">
+                    <a class="previous" href="index.html">Back</a>
+                </div>
             </div>
-        </fieldset>
        
     </form>
+    </div>
 </body>
 
 </html>
